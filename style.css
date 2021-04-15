@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body {
+  background-color: #333; }
+
+nav {
+  opacity: 0.8; }
+
+#home-section {
+  background: url("pexels-yury-kim-585418.jpg") no-repeat top center;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed; }
+  #home-section .dark-over {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 700px; }
+  #home-section .home-inner {
+    padding-top: 100px;
+    padding-bottom: 50px; }
+  #home-section .fa {
+    background: #fff;
+    color: royalblue;
+    padding: 4px;
+    font-size: 20px;
+    border-radius: 5px; }
+  #home-section .sign-card {
+    opacity: 0.8; }
+
+#services-main .fa {
+  background: #333;
+  color: #fff;
+  padding: 4px;
+  font-size: 25px;
+  border-radius: 5px; }
+
+#explore-main .fa {
+  background: #fff;
+  color: #333;
+  padding: 4px;
+  font-size: 25px;
+  border-radius: 5px; }
+
+#about-section {
+  background: url("pexels-александр-македонский-3609139.jpg") no-repeat top center;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed; }
+  #about-section .back {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 700px; }
+  #about-section .inner {
+    padding-top: 150px;
+    padding-bottom: 50px; }
+  #about-section form {
+    opacity: 0.9; }
+
+@media (max-width: 500px) {
+  body h3 {
+    font-size: 35px; }
+  body p {
+    font-size: 20px; } }
